@@ -1,0 +1,13 @@
+<root>
+    <text>This is some sample text with symbols and numbers. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam, erat in iaculis sollicitudin, nisl nunc iaculis metus, in gravida orci massa in lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin ullamcorper lorem ut justo semper malesuada. Integer laoreet sagittis commodo. Maecenas ultrices dui non velit rhoncus commodo. Suspendisse vitae malesuada odio. 1234567890 ~</text>
+    <data>
+        <value>10</value>
+        <value>20</value>
+        <value>30</value>
+    </data>
+    <tags>
+        <tag>Tag 1</tag>
+        <tag>Tag 2</tag>
+        <tag>Tag 3</tag>
+    </tags>
+</root>
