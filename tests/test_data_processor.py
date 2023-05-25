@@ -8,7 +8,7 @@ class TestDataProcessor(unittest.TestCase):
     def setUp(self):
         self.data_processor = DataProcessor()
 
-    def test_process_folder(self):
+    def test_load_file(self):
         # Create some sample files for testing
         folder_path = 'test_data'
         csv_file_path = 'test_data/sample.csv'
@@ -21,7 +21,7 @@ class TestDataProcessor(unittest.TestCase):
         self.data_processor.register_processor('.xml', XMLProcessor())
 
         # Process the folder
-        self.data_processor.process_folder(folder_path)
+        self.data_processor.load_file(folder_path)
 
         # Assert that the expected data is processed
         expected_data = {

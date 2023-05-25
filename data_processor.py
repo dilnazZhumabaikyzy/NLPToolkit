@@ -10,7 +10,7 @@ class DataProcessor:
     def register_processor(self, file_extension, processor):
         self.file_processors[file_extension] = processor
 
-    def process_folder(self, folder_path):
+    def load_file(self, folder_path):
         data = {}  # Initialize an empty dictionary to store file data
         def get_file_extension(file_name):
                     _, file_extension = os.path.splitext(file_name)
